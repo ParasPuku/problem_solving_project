@@ -1,0 +1,39 @@
+.toggle-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.toggle-label {
+  font-size: 16px;
+}
+
+.toggle-switch {
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background-color: #ccc;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-switch.on {
+  background-color: #4caf50;
+}
+
+.toggle-circle {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+}
+
+.toggle-switch.on .toggle-circle {
+  transform: translateX(24px);
+}
