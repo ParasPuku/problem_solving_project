@@ -1,0 +1,30 @@
+.search-wrapper {
+  margin-top: 30px;
+
+  .search-area {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+  .search-results {
+    margin-top: 15px;
+  }
+
+  .result-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-top: 1px solid #333333;
+    padding: 20px;
+
+    .user {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+}
